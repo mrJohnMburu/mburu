@@ -1,35 +1,54 @@
 ---
 active: false
-abstract: The paper investigates the effect of trade policy on manufactured exports and exporting decision in Kenya. Though manufactured exports are the main driver of industrial transformation and economic modernization, trade policy has not done enough to diversify the exports and increase share of firms involved in exports in Kenya. The study argues that Kenya needs to pursue a strategic and selective trade policy to increase manufactured exports and increase the share of firms involved in exporting. A gravity model of trade on manufactured exports was estimated using Poisson-Pseudo maximum likelihood estimator. Based on the empirical analysis of bilateral manufactured exports between Kenya and its 203 partners, the paper shows that manufactured exports increase by 6.473 percentage points if the tariff regime becomes more selective by 10 percent ceteris paribus. The paper also estimated a Probit model to determine the factors that increase the probability of firm exporting decision.  The study found that custom and trade regulations are not significant determinants of firm export decision in Kenya. However, foreign ownership, firm size, technology adoption, and research and development spending are important determinant of firm export behavior.
-author_notes:
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
+  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
+  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
+  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
+  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
+  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
+  Vestibulum sit amet erat at nulla eleifend gravida.
 authors:
-- John Mburu
-date: "2021-05-01T00:00:00Z"
+- admin
+- Robert Ford
+date: "2013-07-01T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
-  caption: '
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ""
   preview_only: false
-projects: []
-publication: 
-publication_short: ""
-publication_types: manuscript
-- "2"
+links:
+- name: Custom Link
+  url: http://example.org
+projects:
+- internal-project
+publication: In *Source Themes Conference*
+publication_short: In *STC*
+publication_types:
+- "1"
 publishDate: "2017-01-01T00:00:00Z"
-slides: 
-summary: 
+slides: example
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
+  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
- - Source Themes
-title: Effect of Trade Policy on Manufactured Exports and Firm Export Decision in Kenya
-url_code: ""
-url_dataset: ""
-url_pdf: ""
-url_poster: ""
+- Source Themes
+title: An example conference paper
+url_code: '#'
+url_dataset: '#'
+url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_poster: '#'
 url_project: ""
 url_slides: ""
-url_source: ""
-url_video: ""
+url_source: '#'
+url_video: '#'
 ---
 
+{{% callout note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
 
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
