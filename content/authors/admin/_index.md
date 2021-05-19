@@ -36,9 +36,9 @@ social:
 #- icon: graduation-cap
 #  icon_pack: fas
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
--icon: osf
- icon_pack: ai
- link: https://osf.io/vfe9s/
+- icon: osf
+  icon_pack: ai
+  link: https://osf.io/vfe9s/
 - icon: github
   icon_pack: fab
   link: https://github.com/mrJohnMburu
