@@ -1,44 +1,38 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Gender inequality is one of the main challenges facing developing and developed countries, Kenya included. This is acknowledged by the development community, and it is anchored in goal five of Sustainable Development Goals (SDGs), which aims at reducing poverty by promoting gender equality and empowering women. In Kenya, it has been acknowledged by the development of  guidelines on how to address gender inequality in Kenya’s Constitution, amendment of the two third gender rule bill of 2018 and establishment of semi-autonomous government agencies like Women Enterprise Fund (WEF). However, despite massive progress in education and economic policy, women tend to earn less compared to men for equal work. In Kenya, women earn less than their men counterparts with as much as 35 percent. Despite several studies, the extent and driver of the gender wage gap remains a contentious issue. The question being; whether the gender wage gap emanates from human capital and other factors being unequally distributed, or it is due to discrimination. The current study uses household survey data in 2005 and 2015 to investigate the extent and drivers of the gender wage gap in Kenya. The study utilized the recentered Influence Function (RIF) regression and an extension of the Oaxaca-Blinder decomposition method to estimate how changes in the distribution of human capital and institutional factors affect the gender wage gap. The study found that, between 2005 and 2015, the gender wage gap increased in Kenya. Moreover, discrimination seems to be the key driver of the gender wage gap at lower quantiles. In comparison, differences in employees’ characteristics are significant drivers of the gender wage gap in the upper(higher) quantiles. The study recommends a policies that increases human capital investment by women and wage transparency in Kenya.
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+- Peris Wachira
+date: "2021-05-07T00:00:00Z"
 doi: ""
 featured: false
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 
   focal_point: ""
   preview_only: false
 links:
-- name: Custom Link
-  url: http://example.org
+- name: 
+  url: ""
 projects:
-- internal-project
+#- internal-project
 publication: ""
 publication_short: ""
 publication_types:
 - "3"
-publishDate: "2017-01-01T00:00:00Z"
-slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-tags:
+publishDate: "2021-05-01T00:00:00Z"
+slides: 
+summary: 
+tags: 
 - Source Themes
-title: An example preprint / working paper
-url_code: '#'
-url_dataset: '#'
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_poster: '#'
+title: Gender wage gap in Kenya Extent and Explanation
+url_code: ''
+url_dataset: ''
+url_pdf: 
+url_poster: ''
 url_project: ""
 url_slides: ""
-url_source: '#'
-url_video: '#'
+url_source: ''
+url_video: ''
 ---
 
 {{% callout note %}}
