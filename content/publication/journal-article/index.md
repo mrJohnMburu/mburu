@@ -1,8 +1,8 @@
 ---
 abstract: 
 author_notes:
-#- Equal contribution
-#- Equal contribution
+- Equal contribution
+- Equal contribution
 authors:
 - admin
 date: "2015-09-01T00:00:00Z"
@@ -33,4 +33,4 @@ url_source: ""
 url_video: ""
 ---
 
-master thesis
+
