@@ -20,15 +20,15 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: ngugi.mburu@ku.ac.ke
+phone: 
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: 6064 
+  city: Thika
+  region: Central
+  postcode: '01000'
+  country: Kenya
+  country_code: KEN
 coordinates:
   latitude: '37.4275'
   longitude: '-122.1697'
