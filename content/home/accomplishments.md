@@ -27,33 +27,33 @@ item:
   date_end: "2020-11-25"
   date_start: "2020-10-5"
   description: ""
-  organization: Global Trade Analysis Project
-  organization_url:https://www.gtap.agecon.purdue.edu/events/GTAPHET/index.aspx
-  title: GTAP Firm Heterogeneity Course
+  organization: "Global Trade Analysis Project"
+  organization_url: "https://www.gtap.agecon.purdue.edu/events/GTAPHET/index.aspx"
+  title: "GTAP Firm Heterogeneity Course"
   url: ""
 - certificate_url: ""
   date_end: "2019-09-30"
   date_start: "2019-07-01"
   description: ""
-  organization: UNCTAD
-  organization_url:https://elearningtrade.unctad.org/
-  title: Non-Tariff Measures and Data Collection 2019
+  organization: "UNCTAD"
+  organization_url: "https://elearningtrade.unctad.org/"
+  title: "Non-Tariff Measures and Data Collection 2019"
   url: ""
 - certificate_url: ""
   date_end: 
   date_start: "2019-05-01"
   description: ""
-  organization: Department of Econometrics (Kenyatta University)
-  organization_url: https://www.ku.ac.ke
-  title: Treatment/Impact evaluation models: Theory and Application
+  organization: "Department of Econometrics (Kenyatta University)"
+  organization_url: "https://www.ku.ac.ke"
+  title: "Treatment/Impact evaluation models: Theory and Application"
   url: ""
 - certificate_url: ""
   date_end: "2012-06-30"
   date_start: "2012-01-01"
   description: ""
-  organization: KASNEB
+  organization: "KASNEB"
   organization_url: ""
-  title: Certified Securities and Investment Analyst (Section I and II)
+  title: "Certified Securities and Investment Analyst (Section I and II)"
   url: ""
 
 design:
