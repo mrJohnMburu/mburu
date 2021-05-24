@@ -22,15 +22,15 @@ bibliography: citation.bib
 
 Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance. For example, an economist may be interested to know whether the social programs like cash transfer program instituted by Kenya government during the Covid-19 pandemic cushioned family from the negative effect of the pandemic. The economist may claim that the cash transfer led to increase in household consumption. This is Keynesian theory of consumption. The economic theory helps the economist to formulate a hypothesis i.e. increase in income leads to increase in consumption. The hypothesis can either be true or false, and hence, the economist needs to test whether there is any relationship between income and consumption. There is a need to express the relationship in a mathematical form. Let assumes that income and consumption has a linear relationship i.e.
 
-1.  \$ y\_i = + x\_i \$
+(1).\$ y\_i = \\alpha + \\beta x\_i \$
 
-In equation (1) \$ y\_i \$ is consumption of individual \$ i \$ and \$ x\_i \$ is the income and \$ \$ and \$ \$ are parameters. Our interest is to know whether \$ \$ is positive or not. Another restriction from Keynesian theory of consumption is that \$ 0 &lt; &lt; 1 \$.
+In equation (1) \$ y\_i \$ is consumption of individual \$ i \$ and \$ x\_i \$ is the income and \$ \\alpha \$ and \$ \\beta \$ are parameters. Our interest is to know whether \$ \\beta \$ is positive or not. Another restriction from Keynesian theory of consumption is that \$ 0 &lt; \\beta &lt; 1 \$.
 
 Equation (1) above assumes that only income affect consumption and there is one-to-one relationship between income and consumption. However, in most economic applications the researcher is not able to observe all variables that can affect a \$ y\_i \$. Moreover, it is likely that the relationship between consumption and income is not perfect. Hence, we add an error term, that capture any other variable not included in the model, any specification errors and measurement errors.
 
-1.  \$ y\_i = + x\_i + e\_i \$
+(2).\$ y\_i = \\alpha + \\beta x\_i + e\_i \$
 
-Different approach can be used to estimate the value \$ \$. This includes:
+Different approach can be used to estimate the value \$ \\beta \$. This includes:
 
 1.  Ordinary Least Square  
 2.  Maximum Likelihood Estimation  
@@ -38,45 +38,46 @@ Different approach can be used to estimate the value \$ \$. This includes:
 
 ## Review of Ordinary Least square (OLS)
 
-Since \$ e\_i \$ is unobservable, we need to make several assumptions to be estimate the value of \$ \$.
+Since \$ e\_i \$ is unobservable, we need to make several assumptions to be estimate the value of \$ \\beta \$.
 
 ### Asumption of OLS
 
-1.  Linearity- \$ y\_i = + x\_i + e\_i \$  
+1.  Linearity- \$ y\_i = \\alpha + \\beta x\_i + e\_i \$  
 2.  \$ E(e\_i) = 0 \$  
-3.  \$ var(e\_i) = ^2 \$  
+3.  \$ var(e\_i) = \\sigma^2 \$  
 4.  \$ E(e\_i,e\_j) = 0 \$  
 5.  \$ E(x\_i,e\_i) = 0 \$  
 6.  No multicollinearity  
 7.  \$ x\_i \$ is fixed in repeated samples  
-    viii.\$ e\_i N(0, ^2) \$  
-8.  No outliers
+8.  \$ e\_i \\sim N(0, \\sigma^2) \$  
+9.  No outliers
 
 ### Estimation
 
 The least square principle asserts that we can fit a line of best fit through the data by minimizing the sum of squared errors. Let us stack the \$ y\_i \$ observations into a matrix \$ Y \$, \$ x\_i \$ observations into matrix of \$ X \$, and \$ e\_i \$ values into matrix of \$ e \$. Hence, equation (2) can be written in matrix form as:
 
-1.  \$ Y = X + e \$
-    where \$ Y \$ is \$ N x 1 \$ vector of dependent variable,
-    \$ X \$ is \$ N x K \$ matrix of independent variables,
-    \$ e \$ is \$ N x 1 \$ vector of errors, and
-    \$ \$ is a \$ Kx1 \$ vector of parameters to be estimated.
+(3).\$ Y = X \\beta + e \$  
+
+where \$ Y \$ is \$ N x 1 \$ vector of dependent variable,
+\$ X \$ is \$ N x K \$ matrix of independent variables,
+\$ e \$ is \$ N x 1 \$ vector of errors, and
+\$ \\beta \$ is a \$ Kx1 \$ vector of parameters to be estimated.
 
 Equation (3) can be expressed as;
 
-1.  \$ e = Y-X \$
+(4).\$ e = Y-X \\beta \$
 
 The aim is to minimize the sum of squared residuals.
 
-1.  \$e’e = (Y-X )’(Y-X ) \$
+(5).\$e’e = (Y-X \\beta)’(Y-X \\beta) \$
 
 Minimizing the sum of squared residuals, we get:
 
-1.  \$ = (X’X)^{-1}X’Y \$
+(6).\$ \\hat \\beta = (X’X)^{-1}X’Y \$
 
 ### Illustration
 
-Let us use simulation to illustration linear regression in R.I simulate data x and Y, and assume the value of \$ \$ is 2 and the value of \$ alpha \$ is 40. The number of observation is 100. I assume x is normally distributed with a mean of 30 and a standard deviation of 10 while error terms are normally distributed with a mean of zero and a standard deviation of 4.
+Let us use simulation to illustration linear regression in R.I simulate data x and Y, and assume the value of \$ \\beta \$ is 2 and the value of \$ \\alpha \$ is 40. The number of observation is 100. I assume x is normally distributed with a mean of 30 and a standard deviation of 10 while error terms are normally distributed with a mean of zero and a standard deviation of 4.
 
 ``` r
 set.seed(1)
@@ -111,7 +112,7 @@ What if were to use equation (6), what will we get? I start with an illustration
 | .    | .      | .      |
 | y100 | X1,100 | x2,100 |
 
-Let us start by generating x1 is a vector of 1’s with a length of 100, and use equation (6) to calculate the value \$ \$.
+Let us start by generating x1 is a vector of 1’s with a length of 100, and use equation (6) to calculate the value \$ \\beta \$.
 
 ``` r
 #create a sequence of 1.
@@ -147,7 +148,7 @@ print(XtX_inv%*%XTY)
     ## A 39.861954
     ##    1.999576
 
-The results shows that the value of intercept is approximately 40 while the coefficient \$ \$ is approximately 2. Hence, the R function lm() and the equation (6) give similar answers.
+The results shows that the value of intercept is approximately 40 while the coefficient \$ \\beta \$ is approximately 2. Hence, the R function lm() and the equation (6) give similar answers.
 
 <div id="refs" class="references csl-bib-body hanging-indent">
 
