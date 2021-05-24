@@ -69,7 +69,7 @@ Equation (3) can be expressed as;
 
 The aim is to minimize the sum of squared residuals.
 
-(5).\$e’e = (Y-X \\beta)’(Y-X \\beta) \$
+(5).min \$ e’e = (Y-X \\beta)’(Y-X \\beta) \$
 
 Minimizing the sum of squared residuals, we get:
 
