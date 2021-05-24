@@ -22,7 +22,7 @@ bibliography: citation.bib
 
 Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance. For example, an economist may be interested to know whether the social programs like cash transfer program instituted by Kenya government during the Covid-19 pandemic cushioned family from the negative effect of the pandemic. The economist may claim that the cash transfer led to increase in household consumption. This is Keynesian theory of consumption. The economic theory helps the economist to formulate a hypothesis i.e. increase in income leads to increase in consumption. The hypothesis can either be true or false, and hence, the economist needs to test whether there is any relationship between income and consumption. There is a need to express the relationship in a mathematical form. Let assumes that income and consumption has a linear relationship i.e.
 
-1.  \$ y\_i = + x\_i \$
+1.  $\ y_i = \alpha + x_i \beta $
 
 In equation (1) \$ y\_i \$ is consumption of individual \$ i \$ and \$ x\_i \$ is the income and \$ \$ and \$ \$ are parameters. Our interest is to know whether \$ \$ is positive or not. Another restriction from Keynesian theory of consumption is that \$ 0 &lt; &lt; 1 \$.
 
