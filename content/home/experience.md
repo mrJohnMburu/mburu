@@ -22,6 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Research Fellow
+    company: Expertise Global Consulting Ltd
+    company_url: 'expertise.co.ke'
+    company_logo: 
+    location: Nairobi
+    date_start: '2021-06-01'
+    date_end: ''
+    description: |2-
+        Responsibilities include: Researching
+        
+        * Impact of public finance management on the economy
+        * 
+
   - title: Part time Lecturer
     company: Kenyatta University
     company_url: ''
@@ -33,7 +46,8 @@ experience:
         Responsibilities include: Teaching
         
         * Econometrics 
-        * Statistics for economists                  * Mathematics for economists
+        * Statistics for economists                  
+        * Mathematics for economists
         * Operational Research
         * Economic modeling and computer application
        
