@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Fellow
-    company: Expertise Global Consulting Ltd
+    company: EGCL Institute
     company_url: 'expertise.co.ke'
     company_logo: 
     location: Nairobi
@@ -33,7 +33,7 @@ experience:
         Responsibilities include: Researching
         
         * Impact of public finance management on the economy
-        * 
+        * Managing a community of pracctice on public finance management.
 
   - title: Part time Lecturer
     company: Kenyatta University
