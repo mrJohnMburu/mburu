@@ -28,7 +28,7 @@ experience:
     company_logo: 
     location: Nairobi
     date_start: '2022-01-17'
-    date_end: ' '
+    date_end: ''
     description: |2-
         Responsibilities include: 
         
@@ -56,7 +56,7 @@ experience:
     company_logo: 
     location: Nairobi
     date_start: '2018-09-01'
-    date_end: ''
+    date_end: '2022-01-01'
     description: |2-
         Responsibilities include: Teaching
         
