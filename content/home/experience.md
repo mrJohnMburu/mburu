@@ -28,7 +28,7 @@ experience:
     company_logo: 
     location: Nairobi
     date_start: '2022-01-17'
-    date_end: '2021-11-30'
+    date_end: ' '
     description: |2-
         Responsibilities include: 
         
