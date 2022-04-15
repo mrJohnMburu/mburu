@@ -22,18 +22,33 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Senior Associate
+    company: IDinsight
+    company_url: 'https://www.idinsight.org/'
+    company_logo: 
+    location: Nairobi
+    date_start: '2022-01-17'
+    date_end: '2021-11-30'
+    description: |2-
+        Responsibilities include: 
+        
+        * Conducting research and technical analyses
+        * Creating client deliverables
+        * Engaging with the client and managing client relationships
+        * Managing project workflow and systems
+        
   - title: Research Fellow
     company: EGCL Institute
-    company_url: 'expertise.co.ke'
+    company_url: 'www.expertise.co.ke'
     company_logo: 
     location: Nairobi
     date_start: '2021-06-01'
-    date_end: ''
+    date_end: '2021-11-30'
     description: |2-
         Responsibilities include: Researching
         
         * Impact of public finance management on the economy
-        * Managing a community of pracctice on public finance management.
+        * Managing a community of practice on public finance management.
 
   - title: Part time Lecturer
     company: Kenyatta University
