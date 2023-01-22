@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: 'Academic Pages'
 day_night: true
 font: ''
 font_size: L
@@ -23,10 +23,10 @@ twitter: ''
 email: ngugi.mburu@ku.ac.ke
 phone: 
 address:
-  street: 6064 
-  city: Thika
+  street: 1063 
+  city: Ruiru
   region: Central
-  postcode: '01000'
+  postcode: '00232'
   country: Kenya
   country_code: KEN
 coordinates:
