@@ -6,7 +6,7 @@ theme: "starter-academic"
 
 title: John Mburu # Website name
 baseurl: 'https://mburu.netlify.app' # Website URL
-copyright: '' # Footer text, e.g. '© {2021} Me'
+copyright: '' # Footer text, e.g. '© {2023} Me'
 
 ############################
 ## LANGUAGE
