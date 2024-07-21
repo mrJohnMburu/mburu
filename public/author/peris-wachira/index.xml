@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peris Wachira | John Mburu</title>
+    <link>https://mburu.netlify.app/author/peris-wachira/</link>
+      <atom:link href="https://mburu.netlify.app/author/peris-wachira/index.xml" rel="self" type="application/rss+xml" />
+    <description>Peris Wachira</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
+      <title>Peris Wachira</title>
+      <link>https://mburu.netlify.app/author/peris-wachira/</link>
+    </image>
+    
+    <item>
+      <title>Gender wage gap in Kenya Extent and Explanation</title>
+      <link>https://mburu.netlify.app/publication/preprint/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://mburu.netlify.app/publication/preprint/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

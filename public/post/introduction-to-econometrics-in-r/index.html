@@ -1,0 +1,1362 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="John Mburu" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://mburu.netlify.app/post/introduction-to-econometrics-in-r/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#e5e6f6" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.dca03a73dbf56f61c9d08f0d22f8b327.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://mburu.netlify.app/post/introduction-to-econometrics-in-r/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="John Mburu" />
+  <meta property="og:url" content="https://mburu.netlify.app/post/introduction-to-econometrics-in-r/" />
+  <meta property="og:title" content="Introduction to Econometrics in R | John Mburu" />
+  <meta property="og:description" content="Introduction Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance." /><meta property="og:image" content="https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png" />
+    <meta property="twitter:image" content="https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-05-20T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-05-20T09:43:20&#43;03:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://mburu.netlify.app/post/introduction-to-econometrics-in-r/"
+  },
+  "headline": "Introduction to Econometrics in R",
+  
+  "datePublished": "2021-05-20T00:00:00Z",
+  "dateModified": "2021-05-20T09:43:20+03:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "John Mburu"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "John Mburu",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Introduction Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Introduction to Econometrics in R | John Mburu</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e0c147f751287dae5ac0d9f49acab00f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.f16be01fc8fb2b5885dd67ce942d1185.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">John Mburu</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">John Mburu</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments"><span>Training</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="https://twitter.com/MburuJNgugi" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Introduction to Econometrics in R</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 20, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="introduction">Introduction</h2>
+<p>Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance. For example, an economist may be interested to know whether the social programs like cash transfer program instituted by Kenya government during the Covid-19 pandemic cushioned family from the negative effect of the pandemic. The economist may claim that the cash transfer led to increase in household consumption. This is Keynesian theory of consumption. The economic theory helps the economist to formulate a hypothesis i.e. increase in income leads to increase in consumption. The hypothesis can either be true or false, and hence, the economist needs to test whether there is any relationship between income and consumption. There is a need to express the relationship in a mathematical form. Let assumes that income and consumption has a linear relationship i.e.</p>
+<p>(1).$ y_i = \alpha + \beta x_i $</p>
+<p>In equation (1) $ y_i $ is consumption of individual $ i $ and $ x_i $ is the income and $ \alpha $ and $ \beta $ are parameters. Our interest is to know whether $ \beta $ is positive or not. Another restriction from Keynesian theory of consumption is that $ 0 &lt; \beta &lt; 1 $.</p>
+<p>Equation (1) above assumes that only income affect consumption and there is one-to-one relationship between income and consumption. However, in most economic applications the researcher is not able to observe all variables that can affect a $ y_i $. Moreover, it is likely that the relationship between consumption and income is not perfect. Hence, we add an error term, that capture any other variable not included in the model, any specification errors and measurement errors.</p>
+<p>(2).$ y_i = \alpha + \beta x_i + e_i $</p>
+<p>Different approach can be used to estimate the value $ \beta $. This includes:</p>
+<ol>
+<li>Ordinary Least Square</li>
+<li>Maximum Likelihood Estimation</li>
+<li>Method of Moments</li>
+</ol>
+<h2 id="review-of-ordinary-least-square-ols">Review of Ordinary Least square (OLS)</h2>
+<p>Since $ e_i $ is unobservable, we need to make several assumptions to be estimate the value of $ \beta $.</p>
+<h3 id="asumption-of-ols">Asumption of OLS</h3>
+<ol>
+<li>Linearity- $ y_i = \alpha + \beta x_i + e_i $</li>
+<li>$ E(e_i) = 0 $</li>
+<li>$ var(e_i) = \sigma^2 $</li>
+<li>$ E(e_i,e_j) = 0 $</li>
+<li>$ E(x_i,e_i) = 0 $</li>
+<li>No multicollinearity</li>
+<li>$ x_i $ is fixed in repeated samples</li>
+<li>$ e_i \sim N(0, \sigma^2) $</li>
+<li>No outliers</li>
+</ol>
+<h3 id="estimation">Estimation</h3>
+<p>The least square principle asserts that we can fit a line of best fit through the data by minimizing the sum of squared errors. Let us stack the $ y_i $ observations into a matrix $ Y $, $ x_i $ observations into matrix of $ X $, and $ e_i $ values into matrix of $ e $. Hence, equation (2) can be written in matrix form as:</p>
+<p>(3).$ Y = X \beta + e $</p>
+<p>where $ Y $ is $ N x 1 $ vector of dependent variable,
+$ X $ is $ N x K $ matrix of independent variables,
+$ e $ is $ N x 1 $ vector of errors, and
+$ \beta $ is a $ Kx1 $ vector of parameters to be estimated.</p>
+<p>Equation (3) can be expressed as;</p>
+<p>(4).$ e = Y-X \beta $</p>
+<p>The aim is to minimize the sum of squared residuals.</p>
+<p>(5).min $ e’e = (Y-X \beta)’(Y-X \beta) $</p>
+<p>Minimizing the sum of squared residuals, we get:</p>
+<p>(6).$ \hat \beta = (X’X)^{-1}X’Y $</p>
+<h3 id="illustration">Illustration</h3>
+<p>Let us use simulation to illustration linear regression in R.I simulate data x and Y, and assume the value of $ \beta $ is 2 and the value of $ \alpha $ is 40. The number of observation is 100. I assume x is normally distributed with a mean of 30 and a standard deviation of 10 while error terms are normally distributed with a mean of zero and a standard deviation of 4.</p>
+<pre><code class="language-r">set.seed(1)
+#Simulate 100 observations with mean of 30 and standard deviation of 10.
+x &lt;- rnorm(100, 30, 10)
+#Simulate 100 observations with a mean of 0 and standard deviation of 4.
+e &lt;- rnorm(100, 0, 4)
+# Generate y as a linear function of x and e.
+y &lt;- 40 + 2*x + e
+# use lm() function, to run a linear regression
+print(lm(y ~ x))
+</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = y ~ x)
+## 
+## Coefficients:
+## (Intercept)            x  
+##       39.86         2.00
+</code></pre>
+<p>As the output shows, the value of coefficient of $ x $ is 2 while the intercept is approximately 40.</p>
+<p>What if were to use equation (6), what will we get? I start with an illustration to show how data used for regression is usually arranged. You have N individual, in our case N = 100. Each individual has a linear equation linking y and x. Hence, the vector of Y is a column vector of dependent variable and X is N by K matrix of independent variable. Where K is the number of independent variables. The first column of X is filled with 1’s as it corresponds to the intercept. The table below illustrates the data structure. You read x1,1 as “first independent variable for the first individual” and so on. x1 is the variable for the intercept, and it is equal to 1 while y and x2 has been generated above.</p>
+<table>
+<thead>
+<tr>
+<th>Y</th>
+<th>X1</th>
+<th>X2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>y1</td>
+<td>x1,1</td>
+<td>x2,1</td>
+</tr>
+<tr>
+<td>y2</td>
+<td>x1,2</td>
+<td>x2,2</td>
+</tr>
+<tr>
+<td>.</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>.</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>.</td>
+<td>.</td>
+<td>.</td>
+</tr>
+<tr>
+<td>y100</td>
+<td>X1,100</td>
+<td>x2,100</td>
+</tr>
+</tbody>
+</table>
+<p>Let us start by generating x1 is a vector of 1’s with a length of 100, and use equation (6) to calculate the value $ \beta $.</p>
+<pre><code class="language-r">#create a sequence of 1.
+A &lt;- seq(from =1, to = 1, length.out = 100)
+#convert the x and y into matrices.
+#The x and y generated above, contains the 100 values of each variables. I use transpose() function that returns a matrix, to transform x and y into matrices.
+x_vec = t(x)
+#bind the X_vec to the vector of 1's to create a matrix of 2 by 50.
+X_row &lt;- rbind(A, x_vec)
+#Create a 50 by 2 matrix of X's i.e. x1 and x2.
+X &lt;- t(X_row)
+#Create X transpose
+X_trans &lt;- t(X)
+
+#create the matrix of X transpose X.
+XtX &lt;- X_trans%*%X
+
+#Create y column vector
+y_row &lt;- t(y)
+y_col &lt;- t(y_row)
+
+#Create the matrix of X transpose Y.
+XTY &lt;- X_trans%*%y_col
+
+#Solve for inverse of XtX 
+XtX_inv &lt;- solve(XtX)
+
+#Use equation (6) to calculate the value of coefficients.
+print(XtX_inv%*%XTY)
+</code></pre>
+<pre><code>##        [,1]
+## A 39.861954
+##    1.999576
+</code></pre>
+<p>The results shows that the value of intercept is approximately 40 while the coefficient $ \beta $ is approximately 2. Hence, the R function lm() and the equation (6) give similar answers.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-greene2014" class="csl-entry">
+<p>Greene, William. 2014. <em>Econometric Analysis</em>. Pearson Education.</p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/econometrics/">econometrics</a>
+  
+  <a class="badge badge-light" href="/tag/economics/">economics</a>
+  
+  <a class="badge badge-light" href="/tag/statistics/">statistics</a>
+  
+  <a class="badge badge-light" href="/tag/ols/">ols</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://mburu.netlify.app/post/introduction-to-econometrics-in-r/&amp;text=Introduction%20to%20Econometrics%20in%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://mburu.netlify.app/post/introduction-to-econometrics-in-r/&amp;t=Introduction%20to%20Econometrics%20in%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Introduction%20to%20Econometrics%20in%20R&amp;body=https://mburu.netlify.app/post/introduction-to-econometrics-in-r/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://mburu.netlify.app/post/introduction-to-econometrics-in-r/&amp;title=Introduction%20to%20Econometrics%20in%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Introduction%20to%20Econometrics%20in%20R%20https://mburu.netlify.app/post/introduction-to-econometrics-in-r/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://mburu.netlify.app/post/introduction-to-econometrics-in-r/&amp;title=Introduction%20to%20Econometrics%20in%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://mburu.netlify.app"><img class="avatar mr-3 avatar-circle" src="/author/john-mburu/avatar_hu28269afd672ebb54a1e50c9cc81b0d2d_115630_270x270_fill_q75_lanczos_center.jpg" alt="John Mburu"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://mburu.netlify.app">John Mburu</a></h5>
+      <h6 class="card-subtitle">PhD student in Economics</h6>
+      <p class="card-text">My research interests include economic development, Econometrics, and causal inference.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#ngugi.mburu@ku.ac.ke" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/MburuJNgugi" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://osf.io/vfe9s/" target="_blank" rel="noopener">
+        <i class="ai ai-osf"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mrJohnMburu" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.gtap.agecon.purdue.edu/events/GTAPHET/2020/index.aspx" target="_blank" rel="noopener">
+        <i class="fab fa-GTAP-HET"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.8b7df62fd2da18ce73e29c13cc0a6198.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.71e713848164e269bc250f377042949d.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>
