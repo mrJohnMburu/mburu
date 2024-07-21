@@ -3,7 +3,7 @@ abstract: Gender inequality is one of the main challenges facing developing and 
 authors:
 - admin
 - Peris Wachira
-date: "2021-05-07"
+date: "2021-05-07T00:00:00Z"
 doi: ""
 featured: false
 image:
@@ -15,7 +15,7 @@ links:
   url: ""
 projects:
 #- internal-project
-publication: "Working Paper"
+publication: ""
 publication_short: ""
 publication_types: 
 - "3"
