@@ -15,7 +15,7 @@ links:
   url: ""
 projects:
 #- internal-project
-publication: ""
+publication: "Working Paper"
 publication_short: ""
 publication_types: 
 - "3"
@@ -23,7 +23,7 @@ publishDate: "2021-05-01T00:00:00Z"
 slides: 
 summary: 
 tags: 
-- Source Themes
+
 title: Gender wage gap in Kenya Extent and Explanation
 url_code: ''
 url_dataset: ''
@@ -58,7 +58,7 @@ publishDate: "2024-02-01T00:00:00Z"
 slides: 
 summary: 
 tags: 
-- Source Themes
+
 title: Does government domestic borrowing crowd in or crowd out private investment in Kenya?
 url_code: ''
 url_dataset: ''
