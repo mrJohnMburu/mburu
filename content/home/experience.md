@@ -7,7 +7,7 @@ subtitle: null
 date_format: Jan 2006
 experience:
 - title: Consultant
-  company: Eexpertise Global Institute
+  company: Expertise Global Institute
   company_url: "https://expertiseglobal.org/expertise-global-institute/"
   company_logo: null
   location: Nairobi
