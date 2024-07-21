@@ -12,7 +12,7 @@ experience:
   company_logo: null
   location: Nairobi
   date_start: "2024-02-05"
-  date_end: "2024-05-05"
+  date_end: " "
   description: "  Responsibilities include: \n  \n  * Leading Public Finance Dashboard
     development\n  * Contributing to proposal development\n  * Developing knowledge
     products e.g. policy birefs"
