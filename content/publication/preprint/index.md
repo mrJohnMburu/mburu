@@ -17,7 +17,8 @@ projects:
 #- internal-project
 publication: "Working Paper"
 publication_short: ""
-publication_types: ["3"]
+publication_types: 
+- "3"
 publishDate: "2021-05-01T00:00:00Z"
 slides: 
 summary: 
@@ -51,7 +52,8 @@ projects:
 #- internal-project
 publication: "Working Paper"
 publication_short: ""
-publication_types: ["3"]
+publication_types: 
+- "3"
 publishDate: "2024-02-01T00:00:00Z"
 slides: 
 summary: 
