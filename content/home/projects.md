@@ -26,8 +26,6 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-  - name: All
-    tag: '*'
   - name: Data Analysis and Management Using Stata, Eviews, R, and SPSS
     tag: Data
   - name: Data Management System - MEL Systems and Dashboards
