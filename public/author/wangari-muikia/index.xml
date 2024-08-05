@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wangari Muikia | John Mburu</title>
+    <link>https://mburu.netlify.app/author/wangari-muikia/</link>
+      <atom:link href="https://mburu.netlify.app/author/wangari-muikia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wangari Muikia</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
+      <title>Wangari Muikia</title>
+      <link>https://mburu.netlify.app/author/wangari-muikia/</link>
+    </image>
+    
+    <item>
+      <title>Does government domestic borrowing crowd in or crowd out private investment in Kenya?</title>
+      <link>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</link>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

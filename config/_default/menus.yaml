@@ -20,7 +20,7 @@ main:
     url: '#posts'
     weight: 50
   - name: Consultancy Services
-    url: '#project'
+    url: '#projects'
     weight: 60
 
 
