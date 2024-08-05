@@ -15,7 +15,7 @@ experience:
   date_end: " "
   description: "  Responsibilities include: \n  \n  * Leading Public Finance Dashboard
     development\n  * Contributing to proposal development\n  * Developing knowledge
-    products e.g. policy birefs"
+    products including research papers and policy birefs"
 - title: Senior Associate
   company: IDinsight
   company_url: https://www.idinsight.org/
