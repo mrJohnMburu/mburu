@@ -41,13 +41,6 @@ authors:
 date: "2024-02-07T00:00:00Z"
 doi: ""
 featured: false
-image:
-  caption: 
-  focal_point: ""
-  preview_only: false
-links:
-- name: 
-  url: ""
 projects:
 #- internal-project
 publication: "Working Paper"
@@ -55,17 +48,7 @@ publication_short: ""
 publication_types: 
 - "3"
 publishDate: "2024-02-01T00:00:00Z"
-slides: 
-summary: 
-tags: 
+
 - Source Themes
 title: Does government domestic borrowing crowd in or crowd out private investment in Kenya?
-url_code: ''
-url_dataset: ''
-url_pdf: 
-url_poster: ''
-url_project: ""
-url_slides: ""
-url_source: ''
-url_video: ''
 ---
