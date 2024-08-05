@@ -20,6 +20,33 @@
     <loc>https://mburu.netlify.app/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://mburu.netlify.app/publication-type/3/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/authors/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/author/john-mburu/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/author/peris-wachira/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/publication_types/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/publication/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/tag/source-themes/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mburu.netlify.app/tags/</loc>
+    <lastmod>2024-02-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mburu.netlify.app/tag/econometrics/</loc>
     <lastmod>2021-05-20T09:43:20+03:00</lastmod>
   </url><url>
@@ -38,31 +65,7 @@
     <loc>https://mburu.netlify.app/tag/statistics/</loc>
     <lastmod>2021-05-20T09:43:20+03:00</lastmod>
   </url><url>
-    <loc>https://mburu.netlify.app/tags/</loc>
-    <lastmod>2021-05-20T09:43:20+03:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication-type/3/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/authors/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication/preprint/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/author/john-mburu/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/author/peris-wachira/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication_types/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication/</loc>
-    <lastmod>2021-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/tag/source-themes/</loc>
+    <loc>https://mburu.netlify.app/publication/preprint/gender_wage_gap/gender_wage_gap/</loc>
     <lastmod>2021-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mburu.netlify.app/courses/</loc>
@@ -77,35 +80,10 @@
     <loc>https://mburu.netlify.app/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mburu.netlify.app/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/project/internal-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication-type/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/publication/journal-article/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mburu.netlify.app/author/robert-ford/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mburu.netlify.app/admin/</loc>
   </url><url>
     <loc>https://mburu.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://mburu.netlify.app/project/</loc>
   </url>
 </urlset>

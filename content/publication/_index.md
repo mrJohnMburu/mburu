@@ -1,8 +1,7 @@
 ---
-cms_exclude: true
 header:
   caption: ""
   image: ""
 title: Publications
-view: 1
+view: 2
 ---
