@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: Consultancy Services
+title: Consultance Services
 subtitle: ''
 
 content:
@@ -26,11 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-  - name: Data Analysis and Management Using Stata, Eviews, R, and SPSS
-    tag: Data
-  - name: Data Management System - MEL Systems and Dashboards
+  - name: All
+    tag: '*'
+  - name: Data Analysis and Management
+    tag: Stata
+  - name: Data Management System
     tag: MEL
-  - name: Economic Modeling - Macro and Micro simulation Models
+  - name: Economic Modeling
     tag: GTAP
 
 design:

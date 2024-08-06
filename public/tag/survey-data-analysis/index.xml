@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Survey Data Analysis | John Mburu</title>
+    <link>https://mburu.netlify.app/tag/survey-data-analysis/</link>
+      <atom:link href="https://mburu.netlify.app/tag/survey-data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Survey Data Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
+      <title>Survey Data Analysis</title>
+      <link>https://mburu.netlify.app/tag/survey-data-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Data Analysis and Management</title>
+      <link>https://mburu.netlify.app/project/services/dataanalysis/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mburu.netlify.app/project/services/dataanalysis/</guid>
+      <description>&lt;p&gt;I provide comprehensive training for organizations and individuals in statistical analysis and data management using Stata, R, and SPSS. These powerful tools enable users to perform advanced data analysis, create detailed reports, and make data-driven decisions. My training programs are designed to cater to all skill levels, from beginners to advanced users, ensuring that participants gain a solid understanding of each software&amp;rsquo;s functionalities and applications. Through hands-on sessions and practical exercises, I equip participants with the skills needed to effectively manage and analyze data, ultimately enhancing their research capabilities and decision-making processes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning Agenda | John Mburu</title>
+    <link>https://mburu.netlify.app/tag/learning-agenda/</link>
+      <atom:link href="https://mburu.netlify.app/tag/learning-agenda/index.xml" rel="self" type="application/rss+xml" />
+    <description>Learning Agenda</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
+      <title>Learning Agenda</title>
+      <link>https://mburu.netlify.app/tag/learning-agenda/</link>
+    </image>
+    
+    <item>
+      <title>Data Management System</title>
+      <link>https://mburu.netlify.app/project/services/datamanagementsystems/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mburu.netlify.app/project/services/datamanagementsystems/</guid>
+      <description>&lt;p&gt;I work with organization to support their learning journey. I am committed to supporting organizations in the development of robust Monitoring, Evaluation, and Learning (MEL) systems - including theories of change, learning agendas, and data collection, storage, and analysis systems. To complement these efforts, I assist in designing intuitive dashboards that facilitate real-time data visualization and analysis, empowering organizations to make informed decisions and demonstrate their impact to stakeholders.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

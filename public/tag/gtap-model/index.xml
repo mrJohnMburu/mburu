@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GTAP model | John Mburu</title>
+    <link>https://mburu.netlify.app/tag/gtap-model/</link>
+      <atom:link href="https://mburu.netlify.app/tag/gtap-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>GTAP model</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
+      <title>GTAP model</title>
+      <link>https://mburu.netlify.app/tag/gtap-model/</link>
+    </image>
+    
+    <item>
+      <title>Ecomonic Modelling</title>
+      <link>https://mburu.netlify.app/project/services/economicsmodelling/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mburu.netlify.app/project/services/economicsmodelling/</guid>
+      <description>&lt;p&gt;I offer specialized training for organizations and individuals in computable general equilibrium (CGE) modeling and economic modeling. These advanced techniques are crucial for analyzing the impacts of economic policies, shocks, and structural changes on an economy. My training programs are tailored to meet the needs of participants at various levels of expertise, providing a solid foundation in the theoretical underpinnings as well as practical applications of CGE and economic modeling. Through interactive sessions and real-world case studies, I ensure that participants develop the necessary skills to construct, calibrate, and interpret complex economic models, enabling them to make informed decisions and contribute to policy analysis and economic planning effectively.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

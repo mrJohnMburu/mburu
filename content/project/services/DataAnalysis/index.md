@@ -5,6 +5,8 @@ tags:
   - Survey Data Analysis
   - Panel Data Analysis
   - Economic Forecasting
+  - Stata, Eviews, R
+  - Analysis
   
 date: "2024-08-05T00:00:00Z"
 

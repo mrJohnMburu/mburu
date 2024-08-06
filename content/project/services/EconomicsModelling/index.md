@@ -3,7 +3,7 @@ title: Ecomonic Modelling
 summary: I provide introductory and advanced courses on Macrosimulation. This includes training on computable general equilibrium models like GTAP model, simulation softwares like GEMPACK and RunGTAP.
 tags:
 - Computable General Equilibrium
-- GTAP model
+- GTAP
 - Advanced Trade Policy Analysis
 - Climate Modelling
 
