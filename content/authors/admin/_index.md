@@ -22,7 +22,7 @@ interests:
 organizations:
 - name: Kenyatta University
   url: https://www.ku.ac.ke
-role: PhD student in Economics
+role: PhD Candidate in Economics
 social:
 - icon: envelope
   icon_pack: fas
