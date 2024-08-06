@@ -49,8 +49,8 @@ superuser: true
 bio: My research interests include trade, public finance, gender, econometrics, poverty, and inequality.
 ---
 
-I am seasoned public policy expert with over 8 years of experience in trade, gender, public finance management, and econometrics. I have worked with local and international organizations addressing significant global challenges like poverty and streamlining public finance management in developing countries. I have also successfully designed and implemented public policy dashboards, enhancing evidence informed public policy.
+I am seasoned public policy expert with over 8 years of experience in trade, gender, public finance management, and econometrics. I have worked with local and international organizations addressing significant global challenges like poverty and streamlining public finance management in developing countries. I have also successfully designed and implemented public policy dashboards, enhancing evidence-informed public policy.
 
-I have worked in academia, private sector, and development sector, bridging the gap between evidence generation and the use of evidence to inform decisions and policies. I am passionate about building evidence ecosystem. I am the founding Chairperson of Econometrics Association of Kenya, a professional body bringing early career and seasoned public policies professionals from academia, government, and private sector.
+I have worked in academia, the private sector, and the development sector, bridging the gap between evidence generation and the use of evidence to inform decisions and policies. I am passionate about building an evidence-based ecosystem. I am the founding Chairperson of the Econometrics Association of Kenya, a professional body bringing early career and seasoned public policies professionals from academia, government, and private sector.
 
-I am currently a PhD Candidate at Kenyatta University studying the potential impact of African Continental Free Trade Area on trade and household income in Kenya.
+I am a PhD Candidate at Kenyatta University, working on the potential impact of the African Continental Free Trade Area on trade, manufacturing sector, and household income in Kenya.
