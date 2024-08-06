@@ -30,7 +30,7 @@ content:
     tag: Data
   - name: Data Management System - MEL Systems and Dashboards
     tag: MEL
-  - name: Economic Modelling - Macro and Micro simulation Models
+  - name: Economic Modeling - Macro and Micro simulation Models
     tag: GTAP
 
 design:

@@ -15,10 +15,10 @@ email: "ngugi.mburu@ku.ac.ke"
 highlight_name: false
 interests:
 - Trade
+- Public Finance Management
+- Gender
 - Econometrics
-- Causal Inference
-- Poverty
-- Inequality
+- Poverty and Inequality
 organizations:
 - name: Kenyatta University
   url: https://www.ku.ac.ke
@@ -46,10 +46,11 @@ social:
   icon_pack: fab
   link: https://www.gtap.agecon.purdue.edu/events/GTAPHET/2020/index.aspx
 superuser: true
-bio: My research interests include economic development, Econometrics, and causal inference.
+bio: My research interests include trade, public finance, gender, econometrics, poverty, and inequality.
 ---
 
-I am a PhD student in Economics at Kenyatta University and the current chairperson of Econometrics Association of Kenya. My research interests includes trade, poverty, inequality, econometrics and causal inference. I am passionate about trade and how it can be used to reduce poverty in developing countries. 
+I am seasoned public policy expert with over 8 years of experience in trade, gender, public finance management, and econometrics. I have worked with local and international organizations addressing significant global challenges like poverty and streamlining public finance management in developing countries. I have also successfully designed and implemented public policy dashboards, enhancing evidence informed public policy.
 
-I am also passionate about econometrics and causal inference and the implementation of econometrics tools using open source technology to answers question related to trade, poverty, and inequality. I am experienced data analyst using R and Stata. 
+I have worked in academia, private sector, and development sector, bridging the gap between evidence generation and the use of evidence to inform decisions and policies. I am passionate about building evidence ecosystem. I am the founding Chairperson of Econometrics Association of Kenya, a professional body bringing early career and seasoned public policies professionals from academia, government, and private sector.
 
+I am currently a PhD Candidate at Kenyatta University studying the potential impact of African Continental Free Trade Area on trade and household income in Kenya.
