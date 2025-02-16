@@ -49,8 +49,8 @@ superuser: true
 bio: My research interests include trade, public finance, gender, econometrics, poverty, and inequality.
 ---
 
-I am seasoned public policy expert with over 8 years of experience in trade, gender, public finance management, and econometrics. I have worked with local and international organizations addressing significant global challenges like poverty and streamlining public finance management in developing countries. I have also successfully designed and implemented public policy dashboards, enhancing evidence-informed public policy.
+I am a seasoned public policy expert with over eight years of experience in trade, gender, public finance management, and econometrics. I have collaborated with local and international organizations in academia, private sector, and NGO sector to address critical global challenges like poverty reduction, women empowerment, and public finance management in developing countries. I have also designed and developed public policy dashboards to strengthen evidence-informed decision-making by social sector leaders and public policy experts.
 
-I have worked in academia, the private sector, and the development sector, bridging the gap between evidence generation and the use of evidence to inform decisions and policies. I am passionate about building an evidence-based ecosystem. I am the founding Chairperson of the Econometrics Association of Kenya, a professional body bringing early career and seasoned public policies professionals from academia, government, and private sector.
+I am currently a Ph.D. candidate in Economics at Kenyatta University. My research focuses on the potential impact of the African Continental Free Trade Area on trade, the manufacturing sector, and household income in Kenya.
 
-I am a PhD Candidate at Kenyatta University, working on the potential impact of the African Continental Free Trade Area on trade, manufacturing sector, and household income in Kenya.
+I am passionate about building an evidence-based policy ecosystem in Kenya. I serve as the founding Chairperson of the Econometrics Association of Kenya – professional body founded in 2019. In the Association, I lead efforts to connect and develop early-career and experienced public policy professionals across academia, government, and the private sector.
