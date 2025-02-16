@@ -15,7 +15,7 @@ experience:
   date_end: "2025-02-01"
   description: "  Responsibilities include:  \n * Leading Public Finance Dashboard
     development \n * Contributing to proposal development \n * Developing knowledge
-    products including research papers and policy briefs \n *Contribute to research on women in leadership in banking sector in Kenya \n" 
+    products including research papers and policy briefs \n * Contribute to research on women in leadership in banking sector in Kenya \n" 
 - title: Senior Associate
   company: IDinsight
   company_url: https://www.idinsight.org/
