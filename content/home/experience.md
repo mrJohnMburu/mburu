@@ -12,7 +12,7 @@ experience:
   company_logo: null
   location: Nairobi
   date_start: "2024-02-05"
-  date_end: 
+  date_end: "2025"
   description: "  Responsibilities include:  \n * Leading Public Finance Dashboard
     development \n * Contributing to proposal development \n * Developing knowledge
     products including research papers and policy briefs \n *Contribute to research on women in leadership in banking sector in Kenya \n" 
