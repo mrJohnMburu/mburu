@@ -69,9 +69,9 @@ experience:
   date_start: "2017-09-01"
   date_end: "2020-12-31"
   description:
-  Responsibilities Included: 
+    Responsibilities Included: 
   
-  * Assisted on developing teaching and research materials on:Count data models, Time series analysis, Trade models, and Public debt in Africa.
+    * Assisted on developing teaching and research materials on:Count data models, Time series analysis, Trade models, and Public debt in Africa.
   
 design:
   columns: '2'
