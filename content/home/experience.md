@@ -6,7 +6,7 @@ widget: experience
 subtitle: null
 date_format: Jan 2006
 experience:
-- title: Research Consultant: Public Finance and Gender
+- title: Public Finance and Gender Consultant
   company: Expertise Global Institute
   company_url: "https://expertiseglobal.org/expertise-global-institute/"
   company_logo: null
