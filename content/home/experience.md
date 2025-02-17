@@ -12,7 +12,7 @@ experience:
   company_logo: null
   location: Nairobi
   date_start: "2024-02-05"
-  date_end: "2025-01-05"
+  date_end: ""
   description: |2-
     Responsibilities include:
     
