@@ -6,20 +6,48 @@ widget: experience
 subtitle: null
 date_format: Jan 2006
 experience:
-- title: Public Finance and Gender Consultant
-  company: Expertise Global Institute
+- title: Program Manager
+  company: Expertise Global
   company_url: "https://expertiseglobal.org/expertise-global-institute/"
   company_logo: null
   location: Nairobi
-  date_start: "2024-02-05"
+  date_start: "2025-07-07"
   date_end: ""
   description: |2-
     Responsibilities include:
     
-    * Leading Public Finance Dashboard development.
-    * Contributing to proposal development.
-    * Developing knowledge products including research papers and policy briefs.
-    * Contribute to research on women in leadership in banking sector in Kenya.
+    * Lead gender, school feeding, and leadership programs
+    * Lead public finance management research and dashboard development
+    * Contribute to business development activities.
+
+
+- title: Research Economist and Project Officer On the Co-Impact Project
+  company: Expertise Global
+  company_url: "https://expertiseglobal.org/expertise-global-institute/"
+  company_logo: null
+  location: Nairobi
+  date_start: "2024-08-01"
+  date_end: "2025-07-06"
+  description: |2-
+    Responsibilities include:
+    
+    * Contributed to the development of a strategy for women in leadership in banking sector.
+    * Contributed to organization's public finance management and economic research.
+
+
+- title: Public Finance Dashboard Consultant
+  company: Expertise Global
+  company_url: "https://expertiseglobal.org/expertise-global-institute/"
+  company_logo: null
+  location: Nairobi
+  date_start: "2024-02-05"
+  date_end: "2024-07-31"
+  description: |2-
+    Responsibilities include:
+    
+    * Led the development of a public finance dashboard.
+    * Led the development of a strategy to develop an PFM research institute.
+    * Contributed to proposal development efforts.
 
 - title: Senior Associate
   company: IDinsight
