@@ -3,7 +3,7 @@ cms_exclude: true
 header:
   caption: ""
   image: ""
-title: Courses
+title: courses
 type: page
 ---
 
