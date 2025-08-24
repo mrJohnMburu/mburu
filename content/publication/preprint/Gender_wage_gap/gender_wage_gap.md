@@ -12,19 +12,19 @@ image:
   preview_only: false
 links:
 - name: 
-  url: ""
+  url: "https://kippra.or.ke/download/a-gendered-approach-to-unlocking-the-potential-for-sustainable-development-in-kenya/"
 projects:
 #- internal-project
-publication: "Working Paper"
+publication: "Book Chapter"
 publication_short: ""
 publication_types: 
-- "3"
-publishDate: "2021-05-01T00:00:00Z"
+- "6"
+publishDate: "2025-05-01T00:00:00Z"
 slides: 
 summary: 
 tags: 
 - Source Themes
-title: 'Gender wage gap in Kenya: Extent and Explanation'
+title: 'Gender Wage Gap in Kenya: Extent and Explanation'
 url_code: ''
 url_dataset: ''
 url_pdf: 

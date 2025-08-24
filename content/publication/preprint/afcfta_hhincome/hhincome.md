@@ -26,7 +26,7 @@ slides:
 summary: 
 tags: 
 - Source Themes
-title: 'The Potential Impact of African Continental Free Trade on Household income in Kenya.'
+title: 'The Potential Impact of African Continental Free Trade on Household income in Kenya: A MyGTAP Analysis'
 url_code: ''
 url_dataset: ''
 url_pdf: 

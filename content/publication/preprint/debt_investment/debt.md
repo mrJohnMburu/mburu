@@ -24,7 +24,7 @@ slides:
 summary: 
 tags: 
 - Source Themes
-title: Does government domestic borrowing crowd in or crowd out private investment in Kenya?
+title: Does Government Domestic Borrowing Crowd in or Crowd out Private Investment in Kenya?
 url_code: ''
 url_dataset: ''
 url_pdf: 

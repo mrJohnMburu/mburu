@@ -14,7 +14,7 @@ image:
   preview_only: false
 links:
 - name: 
-  url: ""
+  url: "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7488"
 projects:
 #- internal-project
 publication: "Working Paper"

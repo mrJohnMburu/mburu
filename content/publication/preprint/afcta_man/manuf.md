@@ -26,7 +26,7 @@ slides:
 summary: 
 tags: 
 - Source Themes
-title: 'The Potential Impact of the African Continental Free Trade Area on the Manufacturing Sector in Kenya: A Computable General Equilibrium Analysis.'
+title: 'The Potential Impact of the African Continental Free Trade Area on the Manufacturing Sector in Kenya: A GTAP-HET Analysis'
 url_code: ''
 url_dataset: ''
 url_pdf: 
