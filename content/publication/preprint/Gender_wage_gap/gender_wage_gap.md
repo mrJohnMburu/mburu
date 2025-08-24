@@ -24,7 +24,7 @@ slides:
 summary: 
 tags: 
 - Source Themes
-title: Gender wage gap in Kenya\: Extent and Explanation
+title: 'Gender wage gap in Kenya: Extent and Explanation'
 url_code: ''
 url_dataset: ''
 url_pdf: 

@@ -26,7 +26,7 @@ slides:
 summary: 
 tags: 
 - Source Themes
-title: The Potential Impact of African Continental Free Trade Area on Trade: A GTAP-HET Analysis.
+title: 'The Potential Impact of African Continental Free Trade Area on Trade: A GTAP-HET Analysis.'
 url_code: ''
 url_dataset: ''
 url_pdf: 
