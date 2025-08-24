@@ -11,7 +11,7 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: 
+- name: Link to the Chapter
   url: "https://kippra.or.ke/download/a-gendered-approach-to-unlocking-the-potential-for-sustainable-development-in-kenya/"
 projects:
 #- internal-project

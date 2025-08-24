@@ -13,7 +13,7 @@ image:
   focal_point: ""
   preview_only: false
 links:
-- name: 
+- name: Link to Working Paper
   url: "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=7488"
 projects:
 #- internal-project
