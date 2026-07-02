@@ -22,8 +22,10 @@ publication_types:
 publishDate: "2025-05-01T00:00:00Z"
 slides: 
 summary: 
-tags: 
-- Source Themes
+tags:
+- Gender
+- Wage Gap
+- Kenya
 title: 'Gender Wage Gap in Kenya: Extent and Explanation'
 url_code: ''
 url_dataset: ''

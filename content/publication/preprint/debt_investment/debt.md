@@ -22,8 +22,10 @@ publication_types:
 publishDate: "2024-02-01T00:00:00Z"
 slides: 
 summary: 
-tags: 
-- Source Themes
+tags:
+- Public Debt
+- Private Investment
+- Kenya
 title: Does Government Domestic Borrowing Crowd in or Crowd out Private Investment in Kenya?
 url_code: ''
 url_dataset: ''

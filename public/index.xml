@@ -1,214 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>John Mburu</title>
-    <link>https://mburu.netlify.app/</link>
-      <atom:link href="https://mburu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
-    <description>John Mburu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
-      <title>John Mburu</title>
-      <link>https://mburu.netlify.app/</link>
-    </image>
-    
-    <item>
-      <title>Python basics</title>
-      <link>https://mburu.netlify.app/courses/example/python/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/courses/example/python/</guid>
-      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
-&lt;li&gt;Slower than tuples&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tuples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
-&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
-  &lt;p&gt;Yes&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>https://mburu.netlify.app/courses/example/visualization/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/courses/example/visualization/</guid>
-      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
-  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
-data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
-fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
-fig.show()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>https://mburu.netlify.app/courses/example/stats/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/courses/example/stats/</guid>
-      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
-&lt;p&gt;$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
-  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Example Talk</title>
-      <link>https://mburu.netlify.app/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Analysis and Management</title>
-      <link>https://mburu.netlify.app/project/services/dataanalysis/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/project/services/dataanalysis/</guid>
-      <description>&lt;p&gt;I provide comprehensive training for organizations and individuals in statistical analysis and data management using Stata, R, and SPSS. These powerful tools enable users to perform advanced data analysis, create detailed reports, and make data-driven decisions. My training programs are designed to cater to all skill levels, from beginners to advanced users, ensuring that participants gain a solid understanding of each software&amp;rsquo;s functionalities and applications. Through hands-on sessions and practical exercises, I equip participants with the skills needed to effectively manage and analyze data, ultimately enhancing their research capabilities and decision-making processes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Management System</title>
-      <link>https://mburu.netlify.app/project/services/datamanagementsystems/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/project/services/datamanagementsystems/</guid>
-      <description>&lt;p&gt;I work with organization to support their learning journey. I am committed to supporting organizations in the development of robust Monitoring, Evaluation, and Learning (MEL) systems - including theories of change, learning agendas, and data collection, storage, and analysis systems. To complement these efforts, I assist in designing intuitive dashboards that facilitate real-time data visualization and analysis, empowering organizations to make informed decisions and demonstrate their impact to stakeholders.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ecomonic Modelling</title>
-      <link>https://mburu.netlify.app/project/services/economicsmodelling/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/project/services/economicsmodelling/</guid>
-      <description>&lt;p&gt;I offer specialized training for organizations and individuals in computable general equilibrium (CGE) modeling and economic modeling. These advanced techniques are crucial for analyzing the impacts of economic policies, shocks, and structural changes on an economy. My training programs are tailored to meet the needs of participants at various levels of expertise, providing a solid foundation in the theoretical underpinnings as well as practical applications of CGE and economic modeling. Through interactive sessions and real-world case studies, I ensure that participants develop the necessary skills to construct, calibrate, and interpret complex economic models, enabling them to make informed decisions and contribute to policy analysis and economic planning effectively.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Does government domestic borrowing crowd in or crowd out private investment in Kenya?</title>
-      <link>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</link>
-      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction to Econometrics in R</title>
-      <link>https://mburu.netlify.app/post/introduction-to-econometrics-in-r/</link>
-      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/post/introduction-to-econometrics-in-r/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance. For example, an economist may be interested to know whether the social programs like cash transfer program instituted by Kenya government during the Covid-19 pandemic cushioned family from the negative effect of the pandemic. The economist may claim that the cash transfer led to increase in household consumption. This is Keynesian theory of consumption. The economic theory helps the economist to formulate a hypothesis i.e. increase in income leads to increase in consumption. The hypothesis can either be true or false, and hence, the economist needs to test whether there is any relationship between income and consumption. There is a need to express the relationship in a mathematical form. Let assumes that income and consumption has a linear relationship i.e.&lt;/p&gt;
-&lt;p&gt;(1).$ y_i = \alpha + \beta x_i $&lt;/p&gt;
-&lt;p&gt;In equation (1) $ y_i $ is consumption of individual $ i $ and $ x_i $ is the income and $ \alpha $ and $ \beta $ are parameters. Our interest is to know whether $ \beta $ is positive or not. Another restriction from Keynesian theory of consumption is that $ 0 &amp;lt; \beta &amp;lt; 1 $.&lt;/p&gt;
-&lt;p&gt;Equation (1) above assumes that only income affect consumption and there is one-to-one relationship between income and consumption. However, in most economic applications the researcher is not able to observe all variables that can affect a $ y_i $. Moreover, it is likely that the relationship between consumption and income is not perfect. Hence, we add an error term, that capture any other variable not included in the model, any specification errors and measurement errors.&lt;/p&gt;
-&lt;p&gt;(2).$ y_i = \alpha + \beta x_i + e_i $&lt;/p&gt;
-&lt;p&gt;Different approach can be used to estimate the value $ \beta $. This includes:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Ordinary Least Square&lt;/li&gt;
-&lt;li&gt;Maximum Likelihood Estimation&lt;/li&gt;
-&lt;li&gt;Method of Moments&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;review-of-ordinary-least-square-ols&#34;&gt;Review of Ordinary Least square (OLS)&lt;/h2&gt;
-&lt;p&gt;Since $ e_i $ is unobservable, we need to make several assumptions to be estimate the value of $ \beta $.&lt;/p&gt;
-&lt;h3 id=&#34;asumption-of-ols&#34;&gt;Asumption of OLS&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Linearity- $ y_i = \alpha + \beta x_i + e_i $&lt;/li&gt;
-&lt;li&gt;$ E(e_i) = 0 $&lt;/li&gt;
-&lt;li&gt;$ var(e_i) = \sigma^2 $&lt;/li&gt;
-&lt;li&gt;$ E(e_i,e_j) = 0 $&lt;/li&gt;
-&lt;li&gt;$ E(x_i,e_i) = 0 $&lt;/li&gt;
-&lt;li&gt;No multicollinearity&lt;/li&gt;
-&lt;li&gt;$ x_i $ is fixed in repeated samples&lt;/li&gt;
-&lt;li&gt;$ e_i \sim N(0, \sigma^2) $&lt;/li&gt;
-&lt;li&gt;No outliers&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;estimation&#34;&gt;Estimation&lt;/h3&gt;
-&lt;p&gt;The least square principle asserts that we can fit a line of best fit through the data by minimizing the sum of squared errors. Let us stack the $ y_i $ observations into a matrix $ Y $, $ x_i $ observations into matrix of $ X $, and $ e_i $ values into matrix of $ e $. Hence, equation (2) can be written in matrix form as:&lt;/p&gt;
-&lt;p&gt;(3).$ Y = X \beta + e $&lt;/p&gt;
-&lt;p&gt;where $ Y $ is $ N x 1 $ vector of dependent variable,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>John Mburu</title><link>https://mburu.netlify.app/</link><atom:link href="https://mburu.netlify.app/index.xml" rel="self" type="application/rss+xml"/><description>John Mburu</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url><title>John Mburu</title><link>https://mburu.netlify.app/</link></image><item><title>Artificial intelligence tools for research assistance</title><link>https://mburu.netlify.app/courses/eak/aiassistance/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/aiassistance/</guid><description>&lt;p>Build a foundation in data analysis using Stata.&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/0LeFIlr_EFQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Artificial intelligence tools for researchers</title><link>https://mburu.netlify.app/courses/eak/airesearchers/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/airesearchers/</guid><description>&lt;p>Build a foundation on common AI tools for researchers.&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/-g6VJm3FRoQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Introduction to Computable General Equilibrium Analysis</title><link>https://mburu.netlify.app/courses/eak/cge/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/cge/</guid><description>&lt;p>Build a foundation in Computable General Equilibrium using RunGTAP.&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/-WHUULeC-8s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Introduction to data analysis using Stata.</title><link>https://mburu.netlify.app/courses/eak/stata/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/stata/</guid><description>&lt;p>Build a foundation in data analysis using Stata.&lt;/p></description></item><item><title>Short Courses/Seminars</title><link>https://mburu.netlify.app/courses/courses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/courses/</guid><description/></item><item><title>Data Analysis and Management</title><link>https://mburu.netlify.app/project/services/dataanalysis/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/project/services/dataanalysis/</guid><description>&lt;p>I provide comprehensive training for organizations and individuals in statistical analysis and data management using Stata, R, and SPSS. These powerful tools enable users to perform advanced data analysis, create detailed reports, and make data-driven decisions. My training programs are designed to cater to all skill levels, from beginners to advanced users, ensuring that participants gain a solid understanding of each software&amp;rsquo;s functionalities and applications. Through hands-on sessions and practical exercises, I equip participants with the skills needed to effectively manage and analyze data, ultimately enhancing their research capabilities and decision-making processes.&lt;/p></description></item><item><title>Data Management System</title><link>https://mburu.netlify.app/project/services/datamanagementsystems/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/project/services/datamanagementsystems/</guid><description>&lt;p>I work with organization to support their learning journey. I am committed to supporting organizations in the development of robust Monitoring, Evaluation, and Learning (MEL) systems - including theories of change, learning agendas, and data collection, storage, and analysis systems. To complement these efforts, I assist in designing intuitive dashboards that facilitate real-time data visualization and analysis, empowering organizations to make informed decisions and demonstrate their impact to stakeholders.&lt;/p></description></item><item><title>Ecomonic Modelling</title><link>https://mburu.netlify.app/project/services/economicsmodelling/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/project/services/economicsmodelling/</guid><description>&lt;p>I offer specialized training for organizations and individuals in computable general equilibrium (CGE) modeling and economic modeling. These advanced techniques are crucial for analyzing the impacts of economic policies, shocks, and structural changes on an economy. My training programs are tailored to meet the needs of participants at various levels of expertise, providing a solid foundation in the theoretical underpinnings as well as practical applications of CGE and economic modeling. Through interactive sessions and real-world case studies, I ensure that participants develop the necessary skills to construct, calibrate, and interpret complex economic models, enabling them to make informed decisions and contribute to policy analysis and economic planning effectively.&lt;/p></description></item><item><title>The Potential Impact of African Continental Free Trade on Household income in Kenya: A MyGTAP Analysis</title><link>https://mburu.netlify.app/publication/preprint/afcfta_hhincome/hhincome/</link><pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/publication/preprint/afcfta_hhincome/hhincome/</guid><description/></item><item><title>The Potential Impact of African Continental Free Trade Area on Trade: A GTAP-HET Analysis.</title><link>https://mburu.netlify.app/publication/preprint/afcta_trade/trade/</link><pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/publication/preprint/afcta_trade/trade/</guid><description/></item><item><title>The Potential Impact of the African Continental Free Trade Area on the Manufacturing Sector in Kenya: A GTAP-HET Analysis</title><link>https://mburu.netlify.app/publication/preprint/afcta_man/manuf/</link><pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/publication/preprint/afcta_man/manuf/</guid><description/></item><item><title>Does Government Domestic Borrowing Crowd in or Crowd out Private Investment in Kenya?</title><link>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</link><pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/publication/preprint/debt_investment/debt/</guid><description/></item><item><title>Introduction to Econometrics in R</title><link>https://mburu.netlify.app/post/introduction-to-econometrics-in-r/</link><pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/post/introduction-to-econometrics-in-r/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Econometrics is a social science that applies the tools of economic theory, mathematics, and statistical inference to analyze economic data and explore causal relationships (Greene 2014). Hence, econometrics uses economic theory to make credible claim about human behavior, formulate the claim into mathematical equations and use statistical inference to measure whether the claim is statistically significance. For example, an economist may be interested to know whether the social programs like cash transfer program instituted by Kenya government during the Covid-19 pandemic cushioned family from the negative effect of the pandemic. The economist may claim that the cash transfer led to increase in household consumption. This is Keynesian theory of consumption. The economic theory helps the economist to formulate a hypothesis i.e. increase in income leads to increase in consumption. The hypothesis can either be true or false, and hence, the economist needs to test whether there is any relationship between income and consumption. There is a need to express the relationship in a mathematical form. Let assumes that income and consumption has a linear relationship i.e.&lt;/p>
+&lt;p>(1).$ y_i = \alpha + \beta x_i $&lt;/p>
+&lt;p>In equation (1) $ y_i $ is consumption of individual $ i $ and $ x_i $ is the income and $ \alpha $ and $ \beta $ are parameters. Our interest is to know whether $ \beta $ is positive or not. Another restriction from Keynesian theory of consumption is that $ 0 &amp;lt; \beta &amp;lt; 1 $.&lt;/p>
+&lt;p>Equation (1) above assumes that only income affect consumption and there is one-to-one relationship between income and consumption. However, in most economic applications the researcher is not able to observe all variables that can affect a $ y_i $. Moreover, it is likely that the relationship between consumption and income is not perfect. Hence, we add an error term, that capture any other variable not included in the model, any specification errors and measurement errors.&lt;/p>
+&lt;p>(2).$ y_i = \alpha + \beta x_i + e_i $&lt;/p>
+&lt;p>Different approach can be used to estimate the value $ \beta $. This includes:&lt;/p>
+&lt;ol>
+&lt;li>Ordinary Least Square&lt;/li>
+&lt;li>Maximum Likelihood Estimation&lt;/li>
+&lt;li>Method of Moments&lt;/li>
+&lt;/ol>
+&lt;h2 id="review-of-ordinary-least-square-ols">Review of Ordinary Least square (OLS)&lt;/h2>
+&lt;p>Since $ e_i $ is unobservable, we need to make several assumptions to be estimate the value of $ \beta $.&lt;/p>
+&lt;h3 id="asumption-of-ols">Asumption of OLS&lt;/h3>
+&lt;ol>
+&lt;li>Linearity- $ y_i = \alpha + \beta x_i + e_i $&lt;/li>
+&lt;li>$ E(e_i) = 0 $&lt;/li>
+&lt;li>$ var(e_i) = \sigma^2 $&lt;/li>
+&lt;li>$ E(e_i,e_j) = 0 $&lt;/li>
+&lt;li>$ E(x_i,e_i) = 0 $&lt;/li>
+&lt;li>No multicollinearity&lt;/li>
+&lt;li>$ x_i $ is fixed in repeated samples&lt;/li>
+&lt;li>$ e_i \sim N(0, \sigma^2) $&lt;/li>
+&lt;li>No outliers&lt;/li>
+&lt;/ol>
+&lt;h3 id="estimation">Estimation&lt;/h3>
+&lt;p>The least square principle asserts that we can fit a line of best fit through the data by minimizing the sum of squared errors. Let us stack the $ y_i $ observations into a matrix $ Y $, $ x_i $ observations into matrix of $ X $, and $ e_i $ values into matrix of $ e $. Hence, equation (2) can be written in matrix form as:&lt;/p>
+&lt;p>(3).$ Y = X \beta + e $&lt;/p>
+&lt;p>where $ Y $ is $ N x 1 $ vector of dependent variable,
 $ X $ is $ N x K $ matrix of independent variables,
 $ e $ is $ N x 1 $ vector of errors, and
-$ \beta $ is a $ Kx1 $ vector of parameters to be estimated.&lt;/p&gt;
-&lt;p&gt;Equation (3) can be expressed as;&lt;/p&gt;
-&lt;p&gt;(4).$ e = Y-X \beta $&lt;/p&gt;
-&lt;p&gt;The aim is to minimize the sum of squared residuals.&lt;/p&gt;
-&lt;p&gt;(5).min $ e’e = (Y-X \beta)’(Y-X \beta) $&lt;/p&gt;
-&lt;p&gt;Minimizing the sum of squared residuals, we get:&lt;/p&gt;
-&lt;p&gt;(6).$ \hat \beta = (X’X)^{-1}X’Y $&lt;/p&gt;
-&lt;h3 id=&#34;illustration&#34;&gt;Illustration&lt;/h3&gt;
-&lt;p&gt;Let us use simulation to illustration linear regression in R.I simulate data x and Y, and assume the value of $ \beta $ is 2 and the value of $ \alpha $ is 40. The number of observation is 100. I assume x is normally distributed with a mean of 30 and a standard deviation of 10 while error terms are normally distributed with a mean of zero and a standard deviation of 4.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;set.seed(1)
+$ \beta $ is a $ Kx1 $ vector of parameters to be estimated.&lt;/p>
+&lt;p>Equation (3) can be expressed as;&lt;/p>
+&lt;p>(4).$ e = Y-X \beta $&lt;/p>
+&lt;p>The aim is to minimize the sum of squared residuals.&lt;/p>
+&lt;p>(5).min $ e’e = (Y-X \beta)’(Y-X \beta) $&lt;/p>
+&lt;p>Minimizing the sum of squared residuals, we get:&lt;/p>
+&lt;p>(6).$ \hat \beta = (X’X)^{-1}X’Y $&lt;/p>
+&lt;h3 id="illustration">Illustration&lt;/h3>
+&lt;p>Let us use simulation to illustration linear regression in R.I simulate data x and Y, and assume the value of $ \beta $ is 2 and the value of $ \alpha $ is 40. The number of observation is 100. I assume x is normally distributed with a mean of 30 and a standard deviation of 10 while error terms are normally distributed with a mean of zero and a standard deviation of 4.&lt;/p>
+&lt;pre>&lt;code class="language-r">set.seed(1)
 #Simulate 100 observations with mean of 30 and standard deviation of 10.
 x &amp;lt;- rnorm(100, 30, 10)
 #Simulate 100 observations with a mean of 0 and standard deviation of 4.
@@ -217,244 +60,89 @@ e &amp;lt;- rnorm(100, 0, 4)
 y &amp;lt;- 40 + 2*x + e
 # use lm() function, to run a linear regression
 print(lm(y ~ x))
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>##
 ## Call:
 ## lm(formula = y ~ x)
-## 
+##
 ## Coefficients:
-## (Intercept)            x  
-##       39.86         2.00
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As the output shows, the value of coefficient of $ x $ is 2 while the intercept is approximately 40.&lt;/p&gt;
-&lt;p&gt;What if were to use equation (6), what will we get? I start with an illustration to show how data used for regression is usually arranged. You have N individual, in our case N = 100. Each individual has a linear equation linking y and x. Hence, the vector of Y is a column vector of dependent variable and X is N by K matrix of independent variable. Where K is the number of independent variables. The first column of X is filled with 1’s as it corresponds to the intercept. The table below illustrates the data structure. You read x1,1 as “first independent variable for the first individual” and so on. x1 is the variable for the intercept, and it is equal to 1 while y and x2 has been generated above.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Y&lt;/th&gt;
-&lt;th&gt;X1&lt;/th&gt;
-&lt;th&gt;X2&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;y1&lt;/td&gt;
-&lt;td&gt;x1,1&lt;/td&gt;
-&lt;td&gt;x2,1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;y2&lt;/td&gt;
-&lt;td&gt;x1,2&lt;/td&gt;
-&lt;td&gt;x2,2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;td&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;y100&lt;/td&gt;
-&lt;td&gt;X1,100&lt;/td&gt;
-&lt;td&gt;x2,100&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Let us start by generating x1 is a vector of 1’s with a length of 100, and use equation (6) to calculate the value $ \beta $.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#create a sequence of 1.
+## (Intercept) x
+## 39.86 2.00
+&lt;/code>&lt;/pre>
+&lt;p>As the output shows, the value of coefficient of $ x $ is 2 while the intercept is approximately 40.&lt;/p>
+&lt;p>What if were to use equation (6), what will we get? I start with an illustration to show how data used for regression is usually arranged. You have N individual, in our case N = 100. Each individual has a linear equation linking y and x. Hence, the vector of Y is a column vector of dependent variable and X is N by K matrix of independent variable. Where K is the number of independent variables. The first column of X is filled with 1’s as it corresponds to the intercept. The table below illustrates the data structure. You read x1,1 as “first independent variable for the first individual” and so on. x1 is the variable for the intercept, and it is equal to 1 while y and x2 has been generated above.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Y&lt;/th>
+&lt;th>X1&lt;/th>
+&lt;th>X2&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>y1&lt;/td>
+&lt;td>x1,1&lt;/td>
+&lt;td>x2,1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>y2&lt;/td>
+&lt;td>x1,2&lt;/td>
+&lt;td>x2,2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.&lt;/td>
+&lt;td>.&lt;/td>
+&lt;td>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.&lt;/td>
+&lt;td>.&lt;/td>
+&lt;td>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>.&lt;/td>
+&lt;td>.&lt;/td>
+&lt;td>.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>y100&lt;/td>
+&lt;td>X1,100&lt;/td>
+&lt;td>x2,100&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Let us start by generating x1 is a vector of 1’s with a length of 100, and use equation (6) to calculate the value $ \beta $.&lt;/p>
+&lt;pre>&lt;code class="language-r">#create a sequence of 1.
 A &amp;lt;- seq(from =1, to = 1, length.out = 100)
 #convert the x and y into matrices.
 #The x and y generated above, contains the 100 values of each variables. I use transpose() function that returns a matrix, to transform x and y into matrices.
 x_vec = t(x)
-#bind the X_vec to the vector of 1&#39;s to create a matrix of 2 by 50.
+#bind the X_vec to the vector of 1's to create a matrix of 2 by 50.
 X_row &amp;lt;- rbind(A, x_vec)
-#Create a 50 by 2 matrix of X&#39;s i.e. x1 and x2.
+#Create a 50 by 2 matrix of X's i.e. x1 and x2.
 X &amp;lt;- t(X_row)
 #Create X transpose
 X_trans &amp;lt;- t(X)
-
 #create the matrix of X transpose X.
 XtX &amp;lt;- X_trans%*%X
-
 #Create y column vector
 y_row &amp;lt;- t(y)
 y_col &amp;lt;- t(y_row)
-
 #Create the matrix of X transpose Y.
 XTY &amp;lt;- X_trans%*%y_col
-
-#Solve for inverse of XtX 
+#Solve for inverse of XtX
 XtX_inv &amp;lt;- solve(XtX)
-
 #Use equation (6) to calculate the value of coefficients.
 print(XtX_inv%*%XTY)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##        [,1]
+&lt;/code>&lt;/pre>
+&lt;pre>&lt;code>## [,1]
 ## A 39.861954
-##    1.999576
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The results shows that the value of intercept is approximately 40 while the coefficient $ \beta $ is approximately 2. Hence, the R function lm() and the equation (6) give similar answers.&lt;/p&gt;
-&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
-&lt;div id=&#34;ref-greene2014&#34; class=&#34;csl-entry&#34;&gt;
-&lt;p&gt;Greene, William. 2014. &lt;em&gt;Econometric Analysis&lt;/em&gt;. Pearson Education.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Gender wage gap in Kenya Extent and Explanation</title>
-      <link>https://mburu.netlify.app/publication/preprint/gender_wage_gap/gender_wage_gap/</link>
-      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/publication/preprint/gender_wage_gap/gender_wage_gap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>https://mburu.netlify.app/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/slides/example/</guid>
-      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Code block:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-&lt;p&gt;Block math:&lt;/p&gt;
-&lt;p&gt;$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt; 
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-Three 
-&lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/media/boards.jpg&#34;
-  &gt;
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mburu.netlify.app/admin/config.yml</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://mburu.netlify.app/admin/config.yml</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+## 1.999576
+&lt;/code>&lt;/pre>
+&lt;p>The results shows that the value of intercept is approximately 40 while the coefficient $ \beta $ is approximately 2. Hence, the R function lm() and the equation (6) give similar answers.&lt;/p>
+&lt;div id="refs" class="references csl-bib-body hanging-indent">
+&lt;div id="ref-greene2014" class="csl-entry">
+&lt;p>Greene, William. 2014. &lt;em>Econometric Analysis&lt;/em>. Pearson Education.&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Gender Wage Gap in Kenya: Extent and Explanation</title><link>https://mburu.netlify.app/publication/preprint/gender_wage_gap/gender_wage_gap/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/publication/preprint/gender_wage_gap/gender_wage_gap/</guid><description/></item><item><title/><link>https://mburu.netlify.app/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/admin/config.yml</guid><description/></item></channel></rss>

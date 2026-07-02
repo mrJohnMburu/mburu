@@ -2,8 +2,8 @@
   "name": "John Mburu",
   "short_name": "John Mburu",
   "lang": "en-us",
-  "theme_color": "#e5e6f6",
-  "background_color": "#e5e6f6",
+  "theme_color": "#0f6b63",
+  "background_color": "#0f6b63",
   "icons": [{
     "src": "/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",

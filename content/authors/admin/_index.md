@@ -4,13 +4,13 @@ education:
   courses:
   - course: PhD in Economics
     institution: Kenyatta University
-    year: Ongoing
+    year: 2018 - Present
   - course: Masters of Economics (Econometrics)
     institution: Kenyatta University
-    year: 2017
+    year: Dec. 2017
   - course: BSc in Economics and Statistics
     institution: Kenyatta University
-    year: 2008
+    year: Dec. 2014
 email: "ngugi.mburu@ku.ac.ke"
 highlight_name: false
 interests:
@@ -22,11 +22,11 @@ interests:
 organizations:
 - name: Kenyatta University
   url: https://www.ku.ac.ke
-role: PhD Candidate in Economics
+role: Public Policy Economist and PhD Candidate
 social:
 - icon: envelope
   icon_pack: fas
-  link: /#ngugi.mburu@ku.ac.ke
+  link: mailto:ngugi.mburu@ku.ac.ke
 - display:
     header: true
   icon: twitter
@@ -46,11 +46,11 @@ social:
   icon_pack: fab
   link: https://www.gtap.agecon.purdue.edu/events/GTAPHET/2020/index.aspx
 superuser: true
-bio: My research interests include trade, public finance, gender, econometrics, poverty, and inequality.
+bio: I work at the intersection of trade, public finance, gender, poverty, and evidence systems in Kenya.
 ---
 
-I am a seasoned public policy expert with over eight years of experience in trade, gender, public finance management, and econometrics. I have collaborated with local and international organizations in academia, private sector, and NGO sector to address critical global challenges like poverty reduction, women empowerment, and public finance management in developing countries. I have also designed and developed public policy dashboards to strengthen evidence-informed decision-making by social sector leaders and public policy experts.
+I am a public policy economist working on trade, gender, public finance management, poverty, and applied econometrics. I have over eight years of experience collaborating with local and international organizations across academia, the private sector, and the NGO sector to support poverty reduction, women's empowerment, and public finance management in developing countries. I also design public policy dashboards that strengthen evidence-informed decision-making for social sector leaders and public policy experts.
 
 I am currently a Ph.D. candidate in Economics at Kenyatta University. My research focuses on the potential impact of the African Continental Free Trade Area on trade, the manufacturing sector, and household income in Kenya.
 
-I am passionate about building an evidence-based policy ecosystem in Kenya. I serve as the founding Chairperson of the Econometrics Association of Kenya – professional body founded in 2019. In the Association, I lead efforts to connect and develop early-career and experienced public policy professionals across academia, government, and the private sector.
+I am passionate about building an evidence-based policy ecosystem in Kenya. I serve as the founding Chairperson of the Econometrics Association of Kenya, a professional body founded in 2019. In the Association, I lead efforts to connect and develop early-career and experienced public policy professionals across academia, government, and the private sector.

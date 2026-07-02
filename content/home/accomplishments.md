@@ -26,6 +26,14 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - certificate_url: ""
+  date_end: "2026-05-29"
+  date_start: "2026-05-25"
+  description: ""
+  organization: StEPPFoS
+  organization_url: https://steppfos.faraafrica.org/
+  title: "StEPPFoS Summer School 2026: Advanced Economic Modelling for FNSSA in Africa"
+  url: https://steppfos.faraafrica.org/2026/03/27/steppfos-summer-school-2026-advanced-economic-modelling-for-fnssa-in-africa/
+- certificate_url: ""
   date_end: "2020-11-25"
   date_start: "2020-10-05"
   description: ""

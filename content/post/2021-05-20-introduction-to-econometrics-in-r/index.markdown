@@ -91,10 +91,10 @@ y <- 40 + 2*x + e
 print(lm(y ~ x))
 ```
 
-    ## 
+    ##
     ## Call:
     ## lm(formula = y ~ x)
-    ## 
+    ##
     ## Coefficients:
     ## (Intercept)            x  
     ##       39.86         2.00

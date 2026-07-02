@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Courses | John Mburu</title>
-    <link>https://mburu.netlify.app/courses/</link>
-      <atom:link href="https://mburu.netlify.app/courses/index.xml" rel="self" type="application/rss+xml" />
-    <description>Courses</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url>
-      <title>Courses</title>
-      <link>https://mburu.netlify.app/courses/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>courses | John Mburu</title><link>https://mburu.netlify.app/courses/</link><atom:link href="https://mburu.netlify.app/courses/index.xml" rel="self" type="application/rss+xml"/><description>courses</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://mburu.netlify.app/media/icon_hu1f071ece8f91d52fd6c349e21cb6fa83_73823_512x512_fill_lanczos_center_2.png</url><title>courses</title><link>https://mburu.netlify.app/courses/</link></image><item><title>Artificial intelligence tools for research assistance</title><link>https://mburu.netlify.app/courses/eak/aiassistance/</link><pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/aiassistance/</guid><description>&lt;p>Build a foundation in data analysis using Stata.&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/0LeFIlr_EFQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Artificial intelligence tools for researchers</title><link>https://mburu.netlify.app/courses/eak/airesearchers/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/airesearchers/</guid><description>&lt;p>Build a foundation on common AI tools for researchers.&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/-g6VJm3FRoQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Introduction to Computable General Equilibrium Analysis</title><link>https://mburu.netlify.app/courses/eak/cge/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/cge/</guid><description>&lt;p>Build a foundation in Computable General Equilibrium using RunGTAP.&lt;/p>
+&lt;h2 id="learn">Learn&lt;/h2>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/-WHUULeC-8s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Introduction to data analysis using Stata.</title><link>https://mburu.netlify.app/courses/eak/stata/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/eak/stata/</guid><description>&lt;p>Build a foundation in data analysis using Stata.&lt;/p></description></item><item><title>Short Courses/Seminars</title><link>https://mburu.netlify.app/courses/courses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mburu.netlify.app/courses/courses/</guid><description/></item></channel></rss>
